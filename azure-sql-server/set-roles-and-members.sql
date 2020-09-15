@@ -1,10 +1,10 @@
-USE [vm-vebr-qas-mssql-service]
+USE [database-name]
 GO
 
-ALTER ROLE [db_accessadmin] ADD MEMBER [R12559]
-ALTER ROLE [db_datareader] ADD MEMBER [R12559]
-ALTER ROLE [db_datawriter] ADD MEMBER [R12559]
-ALTER ROLE [db_ddladmin] ADD MEMBER [R12559]
-ALTER ROLE [db_owner] ADD MEMBER [R12559]
-ALTER ROLE [db_securityadmin] ADD MEMBER [R12559]
+ALTER ROLE [db_accessadmin] ADD MEMBER [user-account]
+ALTER ROLE [db_datareader] ADD MEMBER [user-account]
+ALTER ROLE [db_datawriter] ADD MEMBER [user-account]
+ALTER ROLE [db_ddladmin] ADD MEMBER [user-account]
+ALTER ROLE [db_owner] ADD MEMBER [user-account]
+ALTER ROLE [db_securityadmin] ADD MEMBER [user-account]
 GO
