@@ -1,0 +1,1 @@
+CREATE LOGIN user-account WITH password='Enter Password Here';
